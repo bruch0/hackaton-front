@@ -1,11 +1,12 @@
 import React from "react";
+import { Routes } from "./routes";
 import GlobalStyles from "./Shared/GlobalStyles";
 
 const App = () => {
   return (
     <>
       <GlobalStyles />
-      <div>CRA template</div>
+      <Routes/>
     </>
   );
 };
