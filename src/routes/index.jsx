@@ -5,6 +5,7 @@ import DashBoardEmployee from '../pages/DashboardEmployee';
 import Home from '../pages/Home';
 import SignUp from '../pages/SignUp/index';
 import Login from '../pages/Login/index';
+import SignUpCompany from '../pages/SignUpCompany';
 
 function Routes() {
   return (
@@ -20,6 +21,9 @@ function Routes() {
       </Route>
       <Route path="/sign-up" exact>
         <SignUp />
+      </Route>
+      <Route path="/sign-up-company" exact>
+        <SignUpCompany />
       </Route>
       <Route path="/login" exact>
         <Login />
