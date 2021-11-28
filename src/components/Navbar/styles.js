@@ -10,11 +10,11 @@ const Container = styled.nav`
       padding: 0 16px;
       font-family: var(--title);
       font-weight: 500;
-      color: #fff;
+	  color: ${(props) => (props.isNotHome ? '#000000' : '#fff')};
       font-size: 20px;
       cursor: pointer;
     }
-  }
+  
 `;
 
 export default Container;

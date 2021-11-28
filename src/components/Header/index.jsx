@@ -1,6 +1,6 @@
 import React from 'react';
-import IntroductionText from '../IntroductionText';
 import Wrapper from '../Wrapper';
+import IntroductionText from '../IntroductionText';
 
 import { Container, Gradient, Content } from './styles';
 
