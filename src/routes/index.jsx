@@ -4,9 +4,10 @@ import DashboardLawyer from '../pages/DashboardLawyer';
 import DashBoardEmployee from '../pages/DashboardEmployee';
 import Home from '../pages/Home';
 import SignUp from '../pages/SignUp/index';
-import Login from '../pages/Login/index';
+import Login from '../pages/Login';
 import SignUpCompany from '../pages/SignUpCompany';
 import SignUpLawyer from '../pages/SignUpLawyer';
+import LookForSpecialist from '../pages/LookForSpecialist';
 
 function Routes() {
   return (
@@ -31,6 +32,10 @@ function Routes() {
       </Route>
       <Route path="/sign-up-lawyer" exact>
         <SignUpLawyer />
+      </Route>
+
+      <Route path="/search">
+        <LookForSpecialist />
       </Route>
     </Switch>
   );

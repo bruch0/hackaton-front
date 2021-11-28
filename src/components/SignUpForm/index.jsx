@@ -2,13 +2,14 @@ import React from 'react';
 import NavbarWrapper from '../Wrapper';
 import { SignUpContainer, Title, Form, Input, Submit } from './styles';
 
-function SignUpForm(type) {
+// eslint-disable-next-line react/prop-types
+function SignUpForm({ category }) {
   return (
     <>
       <NavbarWrapper isNotHome={1} />
       <SignUpContainer>
         <Title>
-          {type === 'company' ? 'Cadastro de empresa' : 'Cadastre-se'}
+          {category === 'company' ? 'Cadastros de empresa' : 'Cadastre-se'}
         </Title>
         <Form>
           <div>Nome</div>
@@ -19,16 +20,18 @@ function SignUpForm(type) {
           <Input placeholder="Escreva aqui" />
           <div className="document">
             <div>
-              {type === 'company' ? 'CNPJ' : 'CPF'}
+              <div>{category === 'company' ? 'CNPJ' : 'CPF'}</div>
               <Input
                 placeholder={
-                  type === 'company' ? 'XX.XXX.XXX/XXXX-XX' : 'XXX.XXX.XXX-XX'
+                  category === 'company'
+                    ? 'XX.XXX.XXX/XXXX-XX'
+                    : 'XXX.XXX.XXX-XX'
                 }
               />
             </div>
             <div>
-              {type === 'company' ? '' : 'Data de Nascimento'}
-              <Input placeholder="DD/MM/AAAA" />
+              <div>{category === 'lawyer' ? 'Data de Nascimento' : ''}</div>
+              {category === 'lawyer' && <Input placeholder="DD/MM/AAAA" />}
             </div>
           </div>
 

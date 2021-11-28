@@ -10,10 +10,6 @@ const SignUpContainer = styled.main`
 
     div {
       margin-right: 40px;
-
-      input {
-        margin-top: 16px;
-      }
     }
   }
 `;
