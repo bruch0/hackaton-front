@@ -22,7 +22,6 @@ function UserPlan() {
           </Company>
         </div>
         <div>
-          Valor
           <Value>
             R$ <span>220,00</span>
             <Montly>Mensais</Montly>

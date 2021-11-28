@@ -4,6 +4,7 @@ import DashboardLawyer from '../pages/DashboardLawyer';
 import DashBoardEmployee from '../pages/DashboardEmployee';
 import Home from '../pages/Home';
 import Login from '../pages/Login/index';
+import RegisterCompany from '../pages/RegisterCompany';
 
 function Routes() {
   return (
@@ -19,6 +20,9 @@ function Routes() {
       </Route>
       <Route path="/login" exact>
         <Login />
+      </Route>
+      <Route path="/register-company" exact>
+        <RegisterCompany />
       </Route>
     </Switch>
   );
