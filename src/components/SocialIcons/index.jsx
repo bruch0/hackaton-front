@@ -7,9 +7,9 @@ import Container from './styles';
 function SocialIcons() {
   return (
     <Container>
-      <AiOutlineFacebook />
-      <AiOutlineInstagram />
-      <BiEnvelopeOpen />
+      <AiOutlineFacebook className="social-icon" />
+      <AiOutlineInstagram className="social-icon" />
+      <BiEnvelopeOpen className="social-icon" />
     </Container>
   );
 }

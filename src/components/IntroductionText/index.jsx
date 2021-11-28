@@ -1,5 +1,4 @@
 import React from 'react';
-import SignupButton from '../SignupButton';
 
 import Container from './styles';
 
@@ -7,11 +6,14 @@ function IntroductionText() {
   return (
     <Container>
       <p>
-        Somos a empresa tal, através de nossos serviços a comunidade LGBTQIA+
-        pode ter acesso simplificado e gratuito a advogados e instituições que
-        podem ajudar a resolver o seu problema
+        <span className="line1">Somos a empresa Help a Queer,</span>{' '}
+        <span className="line2">através de nossos serviços a comunidade</span>
+        <span className="line3">
+          LGBTQIA+ pode ter acesso simplificado e
+        </span>{' '}
+        <span className="line4">acessível a advogades que podem ajudar</span>{' '}
+        <span className="line5">a resolver o seu problema.</span>
       </p>
-      <SignupButton />
     </Container>
   );
 }
