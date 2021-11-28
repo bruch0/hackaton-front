@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import DashboardLawyer from '../pages/DashboardLawyer';
 import Home from '../pages/Home';
-import LoginLawyer from '../pages/LoginLawyer';
+import Login from '../pages/Login/index';
 
 function Routes() {
   return (
@@ -14,7 +14,7 @@ function Routes() {
         <DashboardLawyer />
       </Route>
       <Route path="/login" exact>
-        <LoginLawyer />
+        <Login />
       </Route>
     </Switch>
   );

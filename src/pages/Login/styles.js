@@ -60,7 +60,7 @@ const Option = styled.p`
   margin-bottom: 50px;
 `;
 
-const Log = styled.div`
+const Log = styled.button`
   width: 18%;
   height: 40px;
   display: flex;

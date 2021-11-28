@@ -4,7 +4,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { AiFillApple, AiOutlineGoogle } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
-import Header from '../../components/Header';
+import NavbarWrapper from '../../components/Wrapper';
 import { Container, Title, Option, Log } from './styles';
 
 function Login() {
@@ -31,7 +31,7 @@ function Login() {
 
   return (
     <>
-      <Header />
+      <NavbarWrapper isNotHome={1} />
       <Container>
         <Title>Login</Title>
         <form onSubmit={handleSubmit(onSubmit)}>
