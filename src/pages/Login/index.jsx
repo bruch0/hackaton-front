@@ -26,7 +26,6 @@ function Login() {
 
   const onSubmit = async (data) => {
     data.preventDefault();
-    console.log(data);
   };
 
   return (
