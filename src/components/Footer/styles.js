@@ -12,7 +12,7 @@ const Container = styled.div`
   }
 
   span {
-    color: #737b7d;
+    color: #434343;
   }
 `;
 

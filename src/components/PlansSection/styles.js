@@ -2,9 +2,21 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 720px;
 
   h1 {
     margin-top: 160px;
+  }
+
+  p {
+    color: #737b7d;
+    font-family: var(--text);
+    font-size: 20px;
+    max-width: 360px;
+    margin-top: 24px;
   }
 `;
 
@@ -14,7 +26,7 @@ export const PlanCards = styled.div`
 
 export const Card = styled.div`
   width: 312px;
-  height: 378px;
+  height: 252px;
   border-radius: 46px;
   margin: 48px 16px;
   display: flex;
@@ -22,54 +34,40 @@ export const Card = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  span {
-    &:nth-child(n + 1) {
-      font-family: var(--text);
+  span:first-of-type {
+    color: #434343;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+
+  span:nth-child(2) {
+    font-size: 30px;
+    font-weight: 700;
+    color: #434343;
+  }
+
+  div {
+    span:nth-child(1) {
+      display: block;
+      font-size: 18px;
+    }
+
+    span:nth-child(2) {
+      font-weight: 400;
+      font-size: 18px;
     }
   }
 
-  &.small-plan {
+  &.basic {
     background-color: #ffd6e0;
   }
 
-  &.medium-plan {
+  &.intermediary {
     background-color: #ead6ff;
   }
 
-  &.large-plan {
+  &.premium {
     background-color: #90f1ef;
-  }
-
-  .plan-price {
-    font-size: 70px;
-    color: #434343;
-    font-weight: 700;
-    position: relative;
-
-    span {
-      font-size: 22px;
-      font-family: var(--text);
-      font-weight: 400;
-    }
-  }
-
-  .monthly-text {
-    display: block;
-    font-weight: 400;
-    position: absolute;
-    right: 0;
-  }
-
-  .plan-description {
-    color: #737b7d;
-    max-width: 60%;
-  }
-
-  .description-company-size {
-    font-weight: 400;
-    span {
-      font-weight: 700;
-      display: block;
-    }
   }
 `;

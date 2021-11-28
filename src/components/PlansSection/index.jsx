@@ -6,43 +6,37 @@ function PlansSection() {
   return (
     <Container>
       <h1>Planos Empresariais</h1>
+      <p>Pacote com pagamentos mensais que não pesam no orçamento</p>
       <PlanCards>
-        <Card className="small-plan">
-          <span className="plan-price">
-            <span>R$</span> 99,90
-            <span className="monthly-text">Mensais</span>
+        <Card className="plan basic">
+          <span>
+            Pacote de Serviços <br /> Jurídicos
           </span>
-          <span className="plan-description">
-            We help the world’s leading organizations follow their shipping
-          </span>
-          <span className="description-company-size">
+          <span>Básico</span>
+          <div>
             <span>Pequenas empresas</span>
-            2-25 funcionários{' '}
-          </span>
+            <span>2 - 25 funcionários</span>
+          </div>
         </Card>
-        <Card className="medium-plan">
-          <span className="plan-price">
-            <span>R$</span> 150,00<span className="monthly-text">Mensais</span>
+        <Card className="plan intermediary">
+          <span>
+            Pacote de <br /> Serviços Jurídicos
           </span>
-          <span className="plan-description">
-            We help the world’s leading organizations follow their shipping
-          </span>
-          <span className="description-company-size">
+          <span>Intermediário</span>
+          <div>
             <span>Pequenas empresas</span>
-            26-50 funcionários{' '}
-          </span>
+            <span>26 - 50 funcionários</span>
+          </div>
         </Card>
-        <Card className="large-plan">
-          <span className="plan-price">
-            <span>R$</span> 220,00<span className="monthly-text">Mensais</span>
+        <Card className="plan premium">
+          <span>
+            Pacote de Serviços <br /> Jurídicos
           </span>
-          <span className="plan-description">
-            We help the world’s leading organizations follow their shipping
-          </span>
-          <span className="description-company-size">
-            <span>Pequenas empresas</span>
-            Acima de 51 funcionários{' '}
-          </span>
+          <span>Premium</span>
+          <div>
+            <span>Grandes empresas</span>
+            <span>26 - 50 funcionários</span>
+          </div>
         </Card>
       </PlanCards>
     </Container>
