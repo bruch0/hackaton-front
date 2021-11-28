@@ -1,6 +1,8 @@
-import { Switch, Route } from "react-router-dom";
-import Home from "../pages/Home";
-export const Routes = () => {
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
+import Home from '../pages/Home';
+
+function Routes() {
   return (
     <Switch>
       <Route path="/" exact>
@@ -8,4 +10,6 @@ export const Routes = () => {
       </Route>
     </Switch>
   );
-};
+}
+
+export default Routes;

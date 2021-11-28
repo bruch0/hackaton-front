@@ -1,14 +1,15 @@
-import React from "react";
-import { Routes } from "./routes";
-import GlobalStyles from "./Shared/GlobalStyles";
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
+import Routes from './routes';
+import GlobalStyles from './Shared/GlobalStyles';
 
-const App = () => {
+function App() {
   return (
     <>
       <GlobalStyles />
       <Routes />
     </>
   );
-};
+}
 
 export default App;

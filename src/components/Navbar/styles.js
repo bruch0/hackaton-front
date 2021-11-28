@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Container = styled.nav`
+const Container = styled.nav`
   display: flex;
 
   ul {
@@ -11,3 +11,5 @@ export const Container = styled.nav`
     }
   }
 `;
+
+export default Container;
