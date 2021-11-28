@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-  font-weight: bold;
-  margin-left: 8px;
+  img {
+    width: 248px;
+    height: 41px;
+  }
 `;
 
 export default Container;
