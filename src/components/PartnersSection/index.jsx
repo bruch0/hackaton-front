@@ -16,7 +16,7 @@ function PartnersSection() {
         <img src="./images/logo-compania-retangulos.png " alt="" />
         <img src="./images/logo-leafs2.png" alt="" />
         <img src="./images/logo-lorem-ipsum.png" alt="" />
-        <img src="./images/logo-heart.png" alt="" />
+        <img src="./images/logo" alt="" />
       </PartnersLogos>
     </Container>
   );
