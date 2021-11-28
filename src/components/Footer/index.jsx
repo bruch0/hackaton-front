@@ -1,11 +1,12 @@
 import React from 'react';
+import Logo from '../Logo';
 
 import Container from './styles';
 
 function Footer() {
   return (
     <Container>
-      <img src="./images/logo.png" alt="" />
+      <Logo />
       <span>Help a Queer .Todos os direitos reservados</span>
     </Container>
   );

@@ -11,7 +11,9 @@ function Navbar({ isNotHome }) {
         <li>
           <HashLink to="#our-work">QUEM SOMOS</HashLink>
         </li>
-        <li>CADASTRE-SE</li>
+        <li>
+          <Link to="/sign-up">CADASTRE-SE</Link>
+        </li>
         <li>
           <Link to="/login">LOGIN</Link>
         </li>
