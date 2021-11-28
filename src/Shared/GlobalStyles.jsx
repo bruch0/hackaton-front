@@ -36,6 +36,7 @@ const GlobalStyles = createGlobalStyle`
     a {
         text-decoration: none;
         margin: 0 auto;
+        color: inherit;
     }
     article, aside, details, figcaption, figure, 
     footer, header, hgroup, menu, nav, section {
