@@ -2,12 +2,14 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
+import { useHistory } from 'react-router-dom';
 import { AiFillApple, AiOutlineGoogle } from 'react-icons/ai';
 import { FaFacebookF } from 'react-icons/fa';
 import NavbarWrapper from '../../components/Wrapper';
 import { Container, Title, Option, Log } from './styles';
 
 function Login() {
+  const history = useHistory();
   const schema = yup.object().shape({
     email: yup
       .string()
@@ -24,8 +26,8 @@ function Login() {
     resolver: yupResolver(schema),
   });
 
-  const onSubmit = async (data) => {
-    data.preventDefault();
+  const onSubmit = async () => {
+    history.push('/dashboard-employee');
   };
 
   return (

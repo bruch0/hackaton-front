@@ -204,8 +204,10 @@ const Actions = styled.div`
   justify-content: space-around;
   margin-bottom: 30px;
 
-  button {
+  a {
     height: 50px;
+    display: flex;
+    align-items: center;
     padding: 0px 15px;
     color: white;
     font-family: 'Roboto', sans-serif;

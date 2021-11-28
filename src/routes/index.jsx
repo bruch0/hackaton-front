@@ -30,7 +30,6 @@ function Routes() {
       <Route path="/login" exact>
         <Login />
       </Route>
-
       <Route path="/signup-lawyers">
         <LawyersRegistry />
       </Route>

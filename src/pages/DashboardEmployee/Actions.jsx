@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Actions } from './styles';
 
 function UserActions() {
   return (
     <Actions>
-      <button type="button">Novo Atendimento</button>
-      <button type="button">Procurar Advogados Disponíveis Agora</button>
+      <Link to="/search">Novo Atendimento</Link>
+      <Link to="/search">Procurar Advogados Disponíveis Agora</Link>
     </Actions>
   );
 }
