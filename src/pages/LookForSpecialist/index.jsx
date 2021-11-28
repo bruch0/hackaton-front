@@ -8,10 +8,13 @@ import img01 from '../../assets/images/01_img.svg';
 import img02 from '../../assets/images/02_img.png';
 import img03 from '../../assets/images/03_img.png';
 import img04 from '../../assets/images/04_img.png';
+import UserMenu from '../../components/UserMenu';
+import Stars from '../../assets/images/stars.svg';
 
 function LookForSpecialist() {
   return (
     <Container>
+      <UserMenu />
       <section className="SearchContainer">
         <img src={Specialist} alt="Pesquisar advogado" />
         <div>
@@ -97,6 +100,7 @@ function LookForSpecialist() {
           <div className="infos">
             <h1>Mariele Oliveira</h1>
             <p>Advogada Penal | Bahia</p>
+            <img src={Stars} alt="estrelas de avaliação" />
             <p>
               Especializada em direito penal, crimes em geral, inquérito e
               defesa processual. 15 anos de experiência, sou LGBTQIA+. Estou
@@ -110,6 +114,7 @@ function LookForSpecialist() {
           <div className="infos">
             <h1>Bruno Alves</h1>
             <p>Advogado Cível | Paraná</p>
+            <img src={Stars} alt="estrelas de avaliação" />
             <p>
               Forneço assistência jurídica e contenciosa em diversas áreas do
               Direito, como: Família e Sucessões, Civil e Trabalhista, atendendo
@@ -123,6 +128,7 @@ function LookForSpecialist() {
           <div className="infos">
             <h1>Vinicius Amorim</h1>
             <p>Advogado Cível | São Paulo</p>
+            <img src={Stars} alt="estrelas de avaliação" />
             <p>
               DIREITOS CIVIS - Direitos LGBT+ como identidade de gênero,
               retificação de nome social e registro civil Ação de Indenização
@@ -136,6 +142,7 @@ function LookForSpecialist() {
           <div className="infos">
             <h1>Andreia Barros</h1>
             <p>Advogade de Família | Rio de Janeiro</p>
+            <img src={Stars} alt="estrelas de avaliação" />
             <p>
               Olá! Sou Advogade Cível especialista em Direito da Família. Atuo
               com reconhecimento e dissolução de união estável, divórcio,

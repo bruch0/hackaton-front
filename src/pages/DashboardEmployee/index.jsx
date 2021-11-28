@@ -1,17 +1,17 @@
 import React from 'react';
 import 'dayjs/locale/pt-br';
-import NavbarWrapper from '../../components/Wrapper';
 import { Dashboard } from './styles';
 import EmployeeInformation from './EmployeeInfo';
 import UserPlan from './MyPlan';
 import UserAssistance from './Assistance';
 import UserRatings from './Ratings';
 import UserActions from './Actions';
+import UserMenu from '../../components/UserMenu';
 
 function DashBoardEmployee() {
   return (
     <>
-      <NavbarWrapper isNotHome={1} />
+      <UserMenu />
       <Dashboard>
         <EmployeeInformation />
         <UserPlan />
