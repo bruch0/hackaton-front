@@ -149,6 +149,11 @@ const Container = styled.main`
       flex-direction: column;
       width: 800px;
 
+      img {
+        width: 120px;
+        margin-bottom: 15px;
+      }
+
       h1 {
         font-size: 28px;
         font-weight: bold;

@@ -6,7 +6,7 @@ const Container = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 8px;
-  margin-top: 32px;
+  margin: 28px auto;
 `;
 
 export default Container;
