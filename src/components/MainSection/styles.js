@@ -1,6 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const Container = styled.section`
+const Container = styled.section`
   display: flex;
   justify-content: center;
 `;
+
+export default Container;

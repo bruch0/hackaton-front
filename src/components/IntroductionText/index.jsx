@@ -1,7 +1,7 @@
-import React from "react";
-import SignupButton from "../SignupButton";
+import React from 'react';
+import SignupButton from '../SignupButton';
 
-import { Container } from "./styles";
+import Container from './styles';
 
 function IntroductionText() {
   return (

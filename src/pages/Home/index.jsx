@@ -1,12 +1,13 @@
 import React from 'react';
-
-import Container from './styles';
+import Header from '../../components/Header';
+import MainSection from '../../components/MainSection';
 
 function Home() {
   return (
-    <Container>
-      <p>Ola</p>
-    </Container>
+    <>
+      <Header />
+      <MainSection />
+    </>
   );
 }
 
