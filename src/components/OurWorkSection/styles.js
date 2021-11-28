@@ -8,12 +8,6 @@ export const Container = styled.section`
   justify-content: space-evenly;
   align-items: center;
   background-color: #f5f5f5;
-
-  h1 {
-    font-family: var(--title);
-    font-size: 34px;
-    font-weight: 700;
-  }
 `;
 
 export const Stats = styled.div`
