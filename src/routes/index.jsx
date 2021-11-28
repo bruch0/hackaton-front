@@ -6,6 +6,8 @@ import Home from '../pages/Home';
 import SignUp from '../pages/SignUp/index';
 import Login from '../pages/Login/index';
 import SignUpCompany from '../pages/SignUpCompany';
+import LawyersRegistry from '../pages/LawyersRegistry';
+import LookForSpecialist from '../pages/LookForSpecialist';
 
 function Routes() {
   return (
@@ -27,6 +29,14 @@ function Routes() {
       </Route>
       <Route path="/login" exact>
         <Login />
+      </Route>
+
+      <Route path="/signup-lawyers">
+        <LawyersRegistry />
+      </Route>
+
+      <Route path="/search">
+        <LookForSpecialist />
       </Route>
     </Switch>
   );
