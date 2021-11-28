@@ -1,11 +1,12 @@
 import React from 'react';
+import OurWorkSection from '../OurWorkSection';
 
 import Container from './styles';
 
 function MainSection() {
   return (
     <Container>
-      <h2>Empresas Parceiras</h2>
+      <OurWorkSection />
     </Container>
   );
 }
