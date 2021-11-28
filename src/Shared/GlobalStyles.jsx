@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
     html, body, div, span, applet, object, iframe,
@@ -20,6 +20,7 @@ const GlobalStyles = createGlobalStyle`
         font-size: 100%;
         font: inherit;
         vertical-align: baseline;
+		font-family: 'Roboto', sans-serif;
     }
     input::-webkit-outer-spin-button,
     input::-webkit-inner-spin-button {
