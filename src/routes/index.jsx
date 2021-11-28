@@ -1,7 +1,8 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
+import DashboardLawyer from '../pages/DashboardLawyer';
 import Home from '../pages/Home';
-import EmployeeDashboard from '../pages/Employee';
+import Login from '../pages/Login/index';
 
 function Routes() {
   return (
@@ -9,8 +10,14 @@ function Routes() {
       <Route path="/" exact>
         <Home />
       </Route>
-      <Route path="/employee" exact>
-        <EmployeeDashboard />
+      <Route path="/dashboard-lawyer" exact>
+        <DashboardLawyer />
+      </Route>
+      <Route path="/dashboard-employee" exact>
+        <DashboardLawyer />
+      </Route>
+      <Route path="/login" exact>
+        <Login />
       </Route>
     </Switch>
   );

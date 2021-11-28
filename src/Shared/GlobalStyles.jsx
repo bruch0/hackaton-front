@@ -67,6 +67,11 @@ const GlobalStyles = createGlobalStyle`
         border: none;
         cursor: pointer;
     }
+
+    :root {
+        --title: "Roboto";
+        --text: "Noto Sans"
+    }
 `;
 
 export default GlobalStyles;
