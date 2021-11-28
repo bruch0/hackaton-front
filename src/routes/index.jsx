@@ -3,6 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import DashboardLawyer from '../pages/DashboardLawyer';
 import DashBoardEmployee from '../pages/DashboardEmployee';
 import Home from '../pages/Home';
+import SignUp from '../pages/SignUp/index';
 import Login from '../pages/Login/index';
 
 function Routes() {
@@ -16,6 +17,9 @@ function Routes() {
       </Route>
       <Route path="/dashboard-employee" exact>
         <DashBoardEmployee />
+      </Route>
+      <Route path="/sign-up" exact>
+        <SignUp />
       </Route>
       <Route path="/login" exact>
         <Login />

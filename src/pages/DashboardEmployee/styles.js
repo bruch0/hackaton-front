@@ -82,14 +82,6 @@ const PlanDetails = styled.div`
   border-radius: 30px;
   padding: 15px 20px;
   display: flex;
-
-  > div {
-    :nth-of-type(1) {
-      width: 65%;
-      border-right: 3px solid #c4c4c4;
-      margin-right: 20px;
-    }
-  }
 `;
 
 const PlanName = styled.p`
@@ -106,24 +98,6 @@ const Company = styled.div`
   img {
     margin-right: 10px;
   }
-`;
-
-const Value = styled.div`
-  font-size: 22px;
-  font-weight: 400;
-  position: relative;
-
-  span {
-    font-size: 60px;
-    font-weight: 700;
-  }
-`;
-
-const Montly = styled.p`
-  position: absolute;
-  font-size: 15px;
-  color: #898989;
-  right: 0;
 `;
 
 const MyAppointments = styled.div`
@@ -254,8 +228,6 @@ export {
   PlanDetails,
   PlanName,
   Company,
-  Value,
-  Montly,
   MyAppointments,
   Today,
   AppointmentDetails,
