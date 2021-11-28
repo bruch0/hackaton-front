@@ -2,13 +2,17 @@ import React from 'react';
 import IntroductionText from '../IntroductionText';
 import Wrapper from '../Wrapper';
 
-import Container from './styles';
+import { Container, Gradient, Content } from './styles';
 
 function Header() {
   return (
     <Container>
-      <Wrapper />
-      <IntroductionText />
+      <Gradient>
+        <Content>
+          <Wrapper />
+          <IntroductionText />
+        </Content>
+      </Gradient>
     </Container>
   );
 }

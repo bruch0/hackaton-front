@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyles = createGlobalStyle`
     html, body, div, span, applet, object, iframe,
@@ -65,6 +65,11 @@ const GlobalStyles = createGlobalStyle`
     button {
         border: none;
         cursor: pointer;
+    }
+
+    :root {
+        --title: "Roboto";
+        --text: "Noto Sans"
     }
 `;
 

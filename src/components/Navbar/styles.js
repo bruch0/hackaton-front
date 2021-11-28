@@ -8,6 +8,11 @@ const Container = styled.nav`
 
     li {
       padding: 0 16px;
+      font-family: var(--title);
+      font-weight: 500;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
     }
   }
 `;
