@@ -68,11 +68,16 @@ const GlobalStyles = createGlobalStyle`
         border: none;
         cursor: pointer;
     }
+    
+    html {
+        scroll-behavior: smooth;
+    }
 
     :root {
         --title: "Roboto";
         --text: "Noto Sans"
     }
+
 `;
 
 export default GlobalStyles;
