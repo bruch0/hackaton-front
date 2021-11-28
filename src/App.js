@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <GlobalStyles />
-      <Routes/>
+      <Routes />
     </>
   );
 };

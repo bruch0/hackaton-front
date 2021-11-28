@@ -61,6 +61,11 @@ const GlobalStyles = createGlobalStyle`
     * {
         box-sizing: border-box;
     }
+
+    button {
+        border: none;
+        cursor: pointer;
+    }
 `;
 
 export default GlobalStyles;
