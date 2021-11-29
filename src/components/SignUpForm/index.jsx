@@ -1,9 +1,17 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 import NavbarWrapper from '../Wrapper';
 import { SignUpContainer, Title, Form, Input, Submit } from './styles';
 
 // eslint-disable-next-line react/prop-types
 function SignUpForm({ category }) {
+  const history = useHistory();
+
+  const onSubmit = (e) => {
+    e.preventDefault();
+    history.push('/login');
+  };
+
   return (
     <>
       <NavbarWrapper isNotHome={1} />
@@ -11,13 +19,13 @@ function SignUpForm({ category }) {
         <Title>
           {category === 'company' ? 'Cadastros de empresa' : 'Cadastre-se'}
         </Title>
-        <Form>
+        <Form onSubmit={(e) => onSubmit(e)}>
           <div>Nome</div>
           <Input id="name" placeholder="Escreva aqui" />
           <div>E-mail</div>
           <Input placeholder="Escreva aqui" />
           <div>Senha</div>
-          <Input placeholder="Escreva aqui" />
+          <Input placeholder="Escreva aqui" type="password" />
           <div className="document">
             <div>
               <div>{category === 'company' ? 'CNPJ' : 'CPF'}</div>
