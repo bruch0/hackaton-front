@@ -9,6 +9,8 @@ Através de nossa plataforma, empresas aderem a um plano e cadastram seus colabo
 
 <br />Oferecemos três opções de planos: 
 
+   ![planos](https://github.com/bruch0/hackaton-front/blob/main/assets/plans.png?raw=true)
+
 - Básico:
   - Para empresas de pequeno porte, com até 25 funcionários 
  
@@ -25,25 +27,28 @@ Através de nossa plataforma, empresas aderem a um plano e cadastram seus colabo
   - Para o colaborador: 
     <br /> Consulta de plano aderido pela empresa, busca por profissionáis disponíveis, agendamento de atendimentos, consulta de status e avaliação anônima de atendimentos concluídos. 
     
+    ![area do colaborador](https://github.com/bruch0/hackaton-front/blob/main/assets/area-colaborador.png?raw=true)
+    
   - Para o advogado: 
     <br /> Consulta de agendamentos feitos por colaboradores, resumo de finanças e média de avaliações dos atendimentos concluídos. 
+    
+    ![area do advogado](https://github.com/bruch0/hackaton-front/blob/main/assets/area-advogado.png?raw=true)
    
  
  ## Benefícios: 
  - Para o colaborador: 
     - Acesso à profissionais dedicados à comunidade LGBTQIA+
-    - Informações sobre legislações, projetos de leis e notícias relevantes para a comunidade, garantindo maior segurança no exercício de suas funções e até mesmo em suas atividades pessoas e fora da empresa!
+    - Informações sobre legislações, projetos de leis e notícias relevantes para a comunidade, garantindo maior segurança no exercício de suas funções e até mesmo em suas atividades pessoas fora da empresa!
    
  - Para o advogado: 
     - Remunerações constantes e oportunidade de trabalhar com empresas que prezam pela diversidade e qualidade de vida de seus funcionários!
    
  - Para a empresa: 
-    - Funcionários mais seguros com o que fazem e, ambiente de trabalalho harmonioso consequentemente mais produtivo.
-    - Destaque na comunidade LGBTQIA+ como uma empresa que zela pela diversidade e bem estar de seus funcionários
+    - Funcionários mais seguros com o que fazem, ambiente de trabalalho harmonioso e consequentemente mais produtivo.
+    - Destaque na comunidade LGBTQIA+ como uma empresa que zela pela diversidade e bem estar de seus funcionários.
 
 ## Links: 
   - Pitch: <br /> link do pitch
   - Demonstração de uso: <br /> [![Watch the video](https://img.youtube.com/vi/1aHdKl2vLvs/hqdefault.jpg)](https://youtu.be/1aHdKl2vLvs)
   - Live Demo: <br /> https://hackaton-front.vercel.app/
-  
-   
+
