@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { useHistory } from 'react-router-dom';
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import { AiFillApple, AiOutlineGoogle } from 'react-icons/ai';
@@ -8,6 +9,8 @@ import NavbarWrapper from '../../components/Wrapper';
 import { Container, Title, Option, Log } from './styles';
 
 function Login() {
+  const history = useHistory();
+
   const schema = yup.object().shape({
     email: yup
       .string()
@@ -25,7 +28,10 @@ function Login() {
   });
 
   const onSubmit = async (data) => {
-    data.preventDefault();
+    // eslint-disable-next-line no-unused-expressions
+    data.email === 'daniel@advocaciaferreira.com'
+      ? history.push('/dashboard-lawyer')
+      : history.push('/dashboard-employee');
   };
 
   return (
