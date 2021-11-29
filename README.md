@@ -5,10 +5,9 @@ A Help a Queer é uma plataforma que conecta empresas que procuram ajudar seus c
 Oferecida como um benefício corporativo, a Help a Queer abre espaço para empresas que querem diversificar e garantir o conforto de seus funcionários e também para advogados que desejam atuar numa área que está em constante amadurecimento, constribuindo com o avanço da inclusão social no país.
 
 ## Como fazemos isso?
-Através de nossa plataforma, empresas aderem à um plano e cadastram seus colaboradores. 
+Através de nossa plataforma, empresas aderem a um plano e cadastram seus colaboradores. 
 
 <br />Oferecemos três opções de planos: 
-
 
 - Básico:
   - Para empresas de pequeno porte, com até 25 funcionários 
@@ -17,7 +16,7 @@ Através de nossa plataforma, empresas aderem à um plano e cadastram seus colab
   - Para empresas de médio porte, com até 50 funcionários
   
 - Premium: 
-  - Para empresas de grande porte, com até 50 funcionários
+  - Para empresas de grande porte, acima de 50 funcionários
   
 -- caso nenhum dos planos atenda às necessidades de sua empresa, entre em contato e discutiremos possíveis flexibilizações --
 
