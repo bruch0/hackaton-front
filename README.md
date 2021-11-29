@@ -48,7 +48,7 @@ Através de nossa plataforma, empresas aderem a um plano e cadastram seus colabo
     - Destaque na comunidade LGBTQIA+ como uma empresa que zela pela diversidade e bem estar de seus funcionários.
 
 ## Links: 
-  - Pitch: <br /> link do pitch
+  - Pitch: <br /> [![Watch the video](https://img.youtube.com/vi/O_PL-nicKlE/hqdefault.jpg)](https://youtu.be/O_PL-nicKlE)
   - Demonstração de uso: <br /> [![Watch the video](https://img.youtube.com/vi/1aHdKl2vLvs/hqdefault.jpg)](https://youtu.be/1aHdKl2vLvs)
   - Live Demo: <br /> https://hackaton-front.vercel.app/
 
