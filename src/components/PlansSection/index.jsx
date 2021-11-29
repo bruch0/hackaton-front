@@ -24,7 +24,7 @@ function PlansSection() {
           </span>
           <span>Intermediário</span>
           <div>
-            <span>Pequenas empresas</span>
+            <span>Médias empresas</span>
             <span>26 - 50 funcionários</span>
           </div>
         </Card>
@@ -35,7 +35,7 @@ function PlansSection() {
           <span>Premium</span>
           <div>
             <span>Grandes empresas</span>
-            <span>26 - 50 funcionários</span>
+            <span>Acima de 51 funcionários</span>
           </div>
         </Card>
       </PlanCards>
