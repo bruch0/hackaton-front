@@ -82,6 +82,7 @@ const PlanDetails = styled.div`
   border-radius: 30px;
   padding: 15px 20px;
   display: flex;
+  flex-direction: column;
 `;
 
 const PlanName = styled.p`
